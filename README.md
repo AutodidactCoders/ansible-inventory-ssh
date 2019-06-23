@@ -12,7 +12,7 @@ Comment créer et utiliser un inventaire statique Ansible ?
 
 2. Premier inventaire
 
-Ce type d’inventaire est écrit à la main et non généré par un outil comme l’être l’inventaire dynamique.
+Ce type d’inventaire est écrit à la main et non généré par un outil comme peut l’être l’inventaire dynamique.
 
 Un inventaire liste des informations sur les machines qui seront nécessaires à Ansible pour s’y connecter, récupérer des  informations, et si besoin les configurer. 
 
