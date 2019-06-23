@@ -8,7 +8,7 @@ Comment créer et utiliser un inventaire statique Ansible ?
 - Une machine avec Python préinstallé et un accès SSH vers celle-ci. Ici, cette machine est virtuelle, elle a la configuration réseau suivante :
 ![alt text][network_config]
 
-[network_config]: https://github.com/AutodidactCoders/ansible-static-inventory/blob/master/ubuntu-demo-node-1_ip_addresses.png "ubuntu-demo-node-1 network"
+[network_config]: https://github.com/AutodidactCoders/ansible-static-inventory/blob/master/ubuntu-demo-node-1_ip-addresses.png "ubuntu-demo-node-1 network"
 
 2. Premier inventaire
 
@@ -33,6 +33,7 @@ ubuntu-demo-node-1 ansible_ssh_host=192.168.0.101 ansible_ssh_user=ubuntu ansibl
 Un autre élément important de l'inventaire est la déclaration de groupe. Ce qui permet de jouer un playbook sur un ensemble de machines en spécifiant le nom du groupe dans le playbook.
 
 3. Utilisation de l'inventaire
+
 Le playbook affiche un "Hello world" dans la console suivie du hostname ainsi que de l'IP dite "par défaut" (c'est la première IP de la liste qu'Ansible a récupérée lors de la phase "Ghatering Facts") de la machine concernée par le script.
 
 - Pour jouer le playbook sur un noeud spécifique :
