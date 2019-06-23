@@ -56,5 +56,5 @@ ansible-playbook hello_world_group.yml -i inventory
 
 [hello_world_group]: https://github.com/AutodidactCoders/ansible-static-inventory/blob/master/hello_world_group.png "Hello World Group"
 
-A très vite sur https://blog.autodidactcoders.com
+A très vite sur https://github.com/AutodidactCoders
 
