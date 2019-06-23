@@ -1,1 +1,1 @@
-# ansible-inventory-ssh
+# Ansible - Static inventory
